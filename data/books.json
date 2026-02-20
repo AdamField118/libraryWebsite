@@ -1,0 +1,112 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "isbn": "9780201657029",
+      "title": "Classical Mechanics",
+      "author": "Goldstein, Herbert; Poole, Charles; Safko, John",
+      "publisher": "Addison-Wesley",
+      "year": 2002,
+      "edition": 3,
+      "subjects": ["Classical Mechanics", "Graduate"],
+      "description": "The definitive graduate textbook on classical mechanics. Covers Lagrangian and Hamiltonian mechanics, canonical transformations, Hamilton-Jacobi theory, and an introduction to chaos and nonlinear dynamics. The third edition adds coverage of nonlinear dynamics and chaos.",
+      "cover_url": ""
+    },
+    {
+      "id": 2,
+      "isbn": "9780226870335",
+      "title": "General Relativity",
+      "author": "Wald, Robert M.",
+      "publisher": "University of Chicago Press",
+      "year": 1984,
+      "edition": 1,
+      "subjects": ["General Relativity", "Graduate", "Differential Geometry"],
+      "description": "The rigorous graduate treatment of general relativity. Wald develops GR from a geometric perspective using differential forms and the abstract index notation. Includes coverage of singularity theorems, black holes, quantum field theory in curved spacetime, and the initial value formulation.",
+      "cover_url": ""
+    },
+    {
+      "id": 3,
+      "isbn": "9783540665960",
+      "title": "Gravitational Lenses",
+      "author": "Schneider, Peter; Ehlers, Jürgen; Falco, Emilio E.",
+      "publisher": "Springer",
+      "year": 1992,
+      "edition": 1,
+      "subjects": ["Gravitational Lensing", "Graduate", "Astrophysics"],
+      "description": "The definitive textbook on gravitational lensing theory. Covers the full theoretical framework from the geodesic equation to microlensing, strong lensing, and weak lensing. Essential reference for anyone working in the field.",
+      "cover_url": ""
+    },
+    {
+      "id": 4,
+      "isbn": "9780122191411",
+      "title": "Modern Cosmology",
+      "author": "Dodelson, Scott",
+      "publisher": "Academic Press",
+      "year": 2003,
+      "edition": 1,
+      "subjects": ["Cosmology", "Graduate", "Astrophysics", "CMB"],
+      "description": "A comprehensive graduate treatment of modern cosmology. Covers the expanding universe, inflation, the CMB, dark matter and dark energy, gravitational lensing, and large-scale structure. Chapter 9 on gravitational lensing is particularly thorough.",
+      "cover_url": ""
+    },
+    {
+      "id": 5,
+      "isbn": "9781108420419",
+      "title": "Introduction to Electrodynamics",
+      "author": "Griffiths, David J.",
+      "publisher": "Cambridge University Press",
+      "year": 2017,
+      "edition": 4,
+      "subjects": ["Electrodynamics", "Undergraduate", "Classical"],
+      "description": "The standard undergraduate electrodynamics textbook. Griffiths covers electrostatics, magnetostatics, electrodynamics, Maxwell's equations, electromagnetic waves, and special relativity with clarity and physical insight. Widely regarded as one of the best physics textbooks ever written.",
+      "cover_url": ""
+    },
+    {
+      "id": 6,
+      "isbn": "9781107189638",
+      "title": "Introduction to Quantum Mechanics",
+      "author": "Griffiths, David J.; Schroeter, Darrell F.",
+      "publisher": "Cambridge University Press",
+      "year": 2018,
+      "edition": 3,
+      "subjects": ["Quantum Mechanics", "Undergraduate"],
+      "description": "The most widely used undergraduate quantum mechanics textbook. Covers the Schrödinger equation, formalism, quantum mechanics in three dimensions, identical particles, and introductory applications. Griffiths's trademark lucid prose makes difficult material accessible.",
+      "cover_url": ""
+    },
+    {
+      "id": 7,
+      "isbn": "9780471309321",
+      "title": "Classical Electrodynamics",
+      "author": "Jackson, John David",
+      "publisher": "Wiley",
+      "year": 1998,
+      "edition": 3,
+      "subjects": ["Electrodynamics", "Graduate", "Classical"],
+      "description": "The canonical graduate electrodynamics text. Jackson's book is comprehensive and challenging, covering boundary value problems, multipole radiation, relativistic electrodynamics, plasma physics, and MHD. Infamous for its difficult problems — a rite of passage for physics graduate students.",
+      "cover_url": ""
+    },
+    {
+      "id": 8,
+      "isbn": "9780521890854",
+      "title": "Spacetime and Geometry: An Introduction to General Relativity",
+      "author": "Carroll, Sean M.",
+      "publisher": "Cambridge University Press",
+      "year": 2019,
+      "edition": 1,
+      "subjects": ["General Relativity", "Graduate", "Differential Geometry"],
+      "description": "A modern and pedagogically excellent introduction to general relativity. Carroll carefully develops the differential geometry needed, then applies it to GR, black holes, gravitational waves, and cosmology. Based on his popular online lecture notes, this is an ideal first GR text.",
+      "cover_url": ""
+    },
+    {
+      "id": 9,
+      "isbn": "9780198519980",
+      "title": "Mathematical Methods for Physics and Engineering",
+      "author": "Riley, K.F.; Hobson, M.P.; Bence, S.J.",
+      "publisher": "Cambridge University Press",
+      "year": 2006,
+      "edition": 3,
+      "subjects": ["Mathematical Physics", "Undergraduate", "Methods"],
+      "description": "A comprehensive mathematical methods text covering linear algebra, vector calculus, Fourier series, PDEs, complex analysis, group theory, and more. Thorough and well-organized, ideal for physics and engineering students needing a complete mathematical toolkit.",
+      "cover_url": ""
+    }
+  ]
+}

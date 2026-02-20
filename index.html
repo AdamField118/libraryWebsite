@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="../favicon.ico">
+    <title>Adam's Library</title>
+    <link rel="stylesheet" href="../styles/style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Adam's Library</h1>
+    </header>
+    
+    <!-- Navigation Bar -->
+    <nav>
+        <a href="./library.html">Library</a>
+        <a href="www.adamfield.org">Personal Webpage</a>
+        <a href="portfolio.adamfield.org">Portfolio Webpage</a>
+    </nav>
+
+    <div class="container">
+
+        <aside class="sidebar">
+            <h2>Filter</h2>
+
+            <div style="margin-bottom: 20px;">
+                <label for="search-input" style="font-weight: bold; display: block; margin-bottom: 6px;">Search</label>
+                <input
+                    type="text"
+                    id="search-input"
+                    placeholder="Title, author, ISBN…"
+                    style="width: 100%; padding: 6px 8px; border: 1px solid #ccc; border-radius: 4px; font-size: 0.9rem; font-family: Arial, sans-serif;"
+                />
+            </div>
+
+            <div style="margin-bottom: 20px;">
+                <label for="sort-select" style="font-weight: bold; display: block; margin-bottom: 6px;">Sort by</label>
+                <select id="sort-select" style="width: 100%; padding: 6px 8px; border: 1px solid #ccc; border-radius: 4px; font-size: 0.9rem; font-family: Arial, sans-serif;">
+                    <option value="title-asc">Title A–Z</option>
+                    <option value="title-desc">Title Z–A</option>
+                    <option value="author-asc">Author A–Z</option>
+                    <option value="year-desc">Newest First</option>
+                    <option value="year-asc">Oldest First</option>
+                </select>
+            </div>
+
+            <div id="result-count" style="font-size: 0.85rem; color: #666; font-style: italic;"></div>
+        </aside>
+
+        <div class="content-container">
+            <!-- <div class="controls">
+                <button class="sort-btn active" id="sort-newest">Newest First</button>
+                <button class="sort-btn" id="sort-oldest">Oldest First</button>
+            </div> -->
+
+            <section class="card-container" id="postsContainer">
+                <div class="loading" id="loadingIndicator">
+                    <i class="fas fa-spinner fa-spin"></i> Loading library…
+                </div>
+            </section>
+        </div>
+
+    </div>
+    
+    <div class="close-btn" id="closeBtn">
+        <i class="fas fa-times"></i>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <p>Created by Adam Field</p>
+            <div class="footer-socials">
+                <span class="contact-label">Contact me:</span>
+                <div class="social-icons">
+                    <a href="/cdn-cgi/l/email-protection#d5b4b1b3bcb0b9b195a2a5bcfbb0b1a0" title="Email">
+                        <img src="../assets/email_logo.svg" alt="email logo">
+                    </a>
+                    <a href="https://www.linkedin.com/in/adfield/" target="_blank" title="LinkedIn">
+                        <img src="../assets/linkedin_logo.png" alt="linkedin logo">
+                    </a>
+                    <a href="https://github.com/AdamField118" target="_blank" title="GitHub">
+                        <img src="../assets/github_logo.svg" alt="github logo">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="../scripts/library.js"></script>

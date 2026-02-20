@@ -107,6 +107,66 @@
       "subjects": ["Mathematical Physics", "Undergraduate", "Methods"],
       "description": "A comprehensive mathematical methods text covering linear algebra, vector calculus, Fourier series, PDEs, complex analysis, group theory, and more. Thorough and well-organized, ideal for physics and engineering students needing a complete mathematical toolkit.",
       "cover_url": ""
+    },
+    {
+      "id": 10,
+      "isbn": "9780521847049",
+      "title": "The Cosmic Microwave Background",
+      "author": "Durrer, Ruth",
+      "publisher": "Cambridge University Press",
+      "year": 2008,
+      "edition": 1,
+      "subjects": ["Cosmology", "Graduate", "CMB"],
+      "description": "This text examines the theory of the CMB and its recent progress. It start with a brief introduction to modern cosmology and its main successes, followed by a thorough derivation of cosmological perturbation theory. It then explores the generation of initial fluctuations by inflation. In the following chapters the Boltzmann equation, which governs the evolution of CMB anisotropies, and polarization are derived using the total angular momentum method. Cosmological parameter estimation is discussed in detail. The lensing of CMB fluctuations and spectral distortions are also treated.",
+      "cover_url": ""
+    },
+    {
+      "id": 11,
+      "isbn": "0521833302",
+      "title": "The Geometry of Physics: An Introduction",
+      "author": "Frankel, Theodore",
+      "publisher": "Cambridge University Press",
+      "year": 2004,
+      "edition": 2,
+      "subjects": ["Mathematical Physics", "Graduate", "Geometry"],
+      "description": "This book is intended to provide a working knowledge of those parts of exterior differential forms, differential geometry, algebraic and differential topology, Lie groups, vector bundles, and Chern forms that are essential for a deeper understanding of both classical and modern physics and engineering.",
+      "cover_url": ""
+    },
+    {
+      "id": 12,
+      "isbn": "9781624103537",
+      "title": "The Space Environment and Its Effects on Space Systems",
+      "author": "Pisacane, Vincent L.",
+      "publisher": "AIAA Education Series",
+      "year": 2016,
+      "edition": 2,
+      "subjects": ["Space Environments", "Undergraduate", "Engineering"],
+      "description": "This book explores the physics of the space environment and engineering aspects of the effects of the space environment on space systems.",
+      "cover_url": ""
+    },
+    {
+      "id": 13,
+      "isbn": "0943396581",
+      "title": "The Night Sky Observer's Guide: Volume 1",
+      "author": "Kepple, George Robert; Sanner, Glen W.",
+      "publisher": "Willman-Bell, Inc.",
+      "year": 1998,
+      "edition": 1,
+      "subjects": ["Astronomy"],
+      "description": "This book give history and context to every noteable object in every constellation in the sky!",
+      "cover_url": ""
+    },
+    {
+      "id": 14,
+      "isbn": "0943396603",
+      "title": "The Night Sky Observer's Guide: Volume 2",
+      "author": "Kepple, George Robert; Sanner, Glen W.",
+      "publisher": "Willman-Bell, Inc.",
+      "year": 1998,
+      "edition": 1,
+      "subjects": ["Astronomy"],
+      "description": "This book give history and context to every noteable object in every constellation in the sky!",
+      "cover_url": ""
     }
   ]
 }
